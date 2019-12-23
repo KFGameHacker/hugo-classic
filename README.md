@@ -8,7 +8,7 @@ It provides some simplifications, `highlight.js` for syntax highlighting, emoji 
 
 ### Instructions
 
-1: Install Hugo.
+1: Install Hugo
 
 ```
 brew install hugo
