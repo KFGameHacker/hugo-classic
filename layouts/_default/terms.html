@@ -3,9 +3,9 @@
 <h1>{{ .Title }}</h1>
 
 <ul class="terms">
-  {{ range .Site.Data.Terms }}
+  {{ range .Data.Terms }}
   <li>
-    <a href="{{ .Site.Page.Permalink }}">{{ .Site.Page.Title }}</a> ({{ .Count }})
+    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
   </li>
   {{ end }}
 </ul>
