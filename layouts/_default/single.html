@@ -18,7 +18,13 @@
 <div class="content-wrapper">
   <main>
     {{ .Content }}
+
+    {{ partial "disqus.html" . }}
+
+    <br>
+    <br>
     <a href="/"> >> Home</a>
   </main>
+
 </div>
 {{ partial "footer.html" . }}
